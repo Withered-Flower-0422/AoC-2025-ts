@@ -11,7 +11,6 @@ const main = (data: string) => {
             bank.splice(0, bank.findIndex(x => x === digit) + 1)
             jolts = jolts * 10 + digit
         }
-
         total += jolts = jolts * 10 + Math.max(...bank)
     }
     return total
